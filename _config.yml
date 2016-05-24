@@ -2,11 +2,11 @@
 #
 
 # Site settings
-title: Spectral
+title: 标题
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
+  描述，描述，很长很长的描述
+  这个描述换行了，但还未结束
+  甚至还有个超链接：请戳[百度](http://www.baidu.com)
 owner: uraplutonium # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com

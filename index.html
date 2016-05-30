@@ -6,9 +6,13 @@ layout: landing
 </audio>
 
 <script type="text/javascript">
-	function play_single_sound() {
-		document.getElementById('audiotrack).play();
-	}
+  var playing = 0;
+  function play_single_sound() {
+  if(playing == 0) {
+  playing = 1;
+  document.getElementById('audiotrack).play();
+  }
+  }
 </script>
 
 <!-- Banner -->

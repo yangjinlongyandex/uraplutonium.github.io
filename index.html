@@ -3,14 +3,14 @@ layout: landing
 ---
 
 <!-- Banner -->
-<section id="banner" ontouchstart="alert('您点击了这幅图片！')">
+<section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <!--ul class="actions">
+    <ul class="actions" onclick="alert('您点击了这幅图片！')">
       <li><a href="#" class="button special">Activate</a></li>
-    </ul-->
+    </ul>
 
   </div>
   <a href="#one" class="more scrolly">Our Love Story</a>
@@ -144,6 +144,7 @@ layout: landing
       audio.play();
     </script-->
     
+  <a href="#Banner" class="more scrolly">To the Top</a>
     
     <audio controls="controls" loop="loop" autoplay="autoplay">
       <source src="http://o7oam2pdt.bkt.clouddn.com/track01.ogg" type="audio/ogg" />

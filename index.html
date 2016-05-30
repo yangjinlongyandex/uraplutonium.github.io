@@ -3,7 +3,7 @@ layout: landing
 ---
 
 <script type="text/javascript">
-  var notplaying = new Boolean(1);
+  var window.notplaying = new Boolean(1);
 </script>
 
 <!-- Banner -->
@@ -12,7 +12,7 @@ layout: landing
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <ul class="actions" onclick="if(notplaying) {notplaying = new Boolean(0);var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
+    <ul class="actions" onclick="if(window.notplaying) {window.notplaying = new Boolean(0);var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
 	<li><a href="#" class="button special">Activate3</a></li>
 </ul>
     

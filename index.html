@@ -1,9 +1,17 @@
 ---
 layout: landing
 ---
+
+<script type="text/javascript">
+  function OnScrollDiv (div) {
+  var info = document.getElementById ("info");
+  info.innerHTML = "Horizontal: " + div.scrollLeft
+  + "px<br/>Vertical: " + div.scrollTop + "px";
+  }
+</script>
 <!-- Banner -->
-<section id="banner" onmouseup="alert('您点击了图片！')">
-  <div class="inner">
+<section id="banner">
+  <div class="inner" onscroll="OnScrollDiv (this)">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 

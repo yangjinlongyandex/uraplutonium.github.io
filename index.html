@@ -4,10 +4,15 @@ layout: landing
 
 <script type="text/javascript">
   window.notplaying = true;
+  audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3'); 
+  audio.addEventListener('ended', function() {
+  this.currentTime = 0;
+  this.play();
+  }, false);
 </script>
 
 <!-- Banner -->
-<section id="banner" onclick="if(window.notplaying) {window.notplaying = false;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
+<section id="banner" onclick="if(window.notplaying) {window.notplaying = false;audio.play()}">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
@@ -26,7 +31,7 @@ layout: landing
   <div class="inner">
       <h4><p>A Red, Red Rose<br />
 	  Robert Burns</p>
-	  <p>红红的玫瑰<br />
+	  <p>红红的玫瑰0<br />
 	    罗伯特·彭斯</p></h4>
       
     

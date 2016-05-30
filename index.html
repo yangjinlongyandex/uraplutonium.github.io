@@ -1,16 +1,25 @@
 ---
 layout: landing
 ---
-    
+<audio id="audiotrack" loop="loop" preload="auto">
+      <source src="http://o7oam2pdt.bkt.clouddn.com/track01.mp3" type="audio/mpeg" />
+</audio>
+
+<script type="text/javascript">
+	function play_single_sound() {
+		document.getElementById('audiotrack).play();
+	}
+</script>
+
 <!-- Banner -->
 <section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <!--ul class="actions" onclick="alert('clicked!');var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()">
-	<li><a href="#" class="button special">Activate</a></li>
-</ul-->
+    <ul class="actions" onclick="alert('clicked!');var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()">
+	<li><a href="javascript:play_single_sound();" class="button special">Activate</a></li>
+</ul>
     
 
   </div>
@@ -25,10 +34,6 @@ layout: landing
 	  <p>红红的玫瑰<br />
 	    罗伯特·彭斯</p></h4>
       
-    <audio controls="controls" loop="loop" autoplay="autoplay">
-      <source src="http://o7oam2pdt.bkt.clouddn.com/track01.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
     
     <!--header class="major">
     </header-->

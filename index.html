@@ -1,19 +1,6 @@
 ---
 layout: landing
 ---
-<audio id="audiotrack" loop="loop" preload="auto">
-      <source src="http://o7oam2pdt.bkt.clouddn.com/track01.mp3" type="audio/mpeg" />
-</audio>
-
-<script type="text/javascript">
-  var playing = 0;
-  function play_single_sound() {
-  if(playing == 0) {
-  playing = 1;
-  document.getElementById('audiotrack).play();
-  }
-  }
-</script>
 
 <!-- Banner -->
 <section id="banner">
@@ -21,8 +8,8 @@ layout: landing
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <ul class="actions">
-	<li><a href="javascript:play_single_sound();" class="button special">Activate1</a></li>
+    <ul class="actions" onclick="if(playing == 0) {playing = 1;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
+	<li><a href="#" class="button special">Activate2</a></li>
 </ul>
     
 

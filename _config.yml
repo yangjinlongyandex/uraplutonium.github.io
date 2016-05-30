@@ -3,11 +3,11 @@
 # Site settings
 title: 相爱·相知·相许
 description: |
-  你是一朵红红的玫瑰,
+  你是一朵红红的玫瑰,<br />
   美到让我心醉。
 owner: uraplutonium
 first_published: 2016
-email: mailto:uraplutonium@yandex.com
+email: http://uraplutonium@yandex.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uraplutonium.github.io" # the base hostname & protocol for your site
 social:

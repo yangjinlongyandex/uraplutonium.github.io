@@ -1,11 +1,6 @@
 ---
 layout: landing
 ---
-
-    <script type='text/javascript'>
-      var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.ogg');
-      audio.play();
-      </script>
     
 <!-- Banner -->
 <section id="banner">
@@ -13,14 +8,10 @@ layout: landing
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <ul class="actions" onclick="alert('clicked!');var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()">
-      <li><a href="#" class="button special">Activate</a></li>
-</ul>
+    <!--ul class="actions" onclick="alert('clicked!');var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()">
+	<li><a href="#" class="button special">Activate</a></li>
+</ul-->
     
-    <!--audio controls="controls" loop="loop" preload="auto">
-      <source src="http://o7oam2pdt.bkt.clouddn.com/track01.ogg" type="audio/ogg" />
-      Your browser does not support the audio element.
-    </audio-->
 
   </div>
   <a href="#one" class="more scrolly">Our Love Story</a>
@@ -32,7 +23,13 @@ layout: landing
       <h4><p>A Red, Red Rose<br />
 	  Robert Burns</p>
 	  <p>红红的玫瑰<br />
-	  罗伯特·彭斯</p></h4>
+	    罗伯特·彭斯</p></h4>
+      
+    <audio controls="controls" loop="loop" autoplay="autoplay">
+      <source src="http://o7oam2pdt.bkt.clouddn.com/track01.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    
     <!--header class="major">
     </header-->
     <!--ul class="icons major">

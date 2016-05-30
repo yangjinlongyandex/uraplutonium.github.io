@@ -7,14 +7,14 @@ layout: landing
 </script>
 
 <!-- Banner -->
-<section id="banner">
+<section id="banner" onclick="if(window.notplaying) {window.notplaying = false;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
 
-    <ul class="actions" onclick="if(window.notplaying) {window.notplaying = false;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
+    <!--ul class="actions" onclick="if(window.notplaying) {window.notplaying = false;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
 	<li class="button special">Activate8</li>
-</ul>
+</ul-->
     
 
   </div>
@@ -22,7 +22,7 @@ layout: landing
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper style1 special">
+<section id="one" class="wrapper style1 special" onclick="if(window.notplaying) {window.notplaying = false;var audio = new Audio('http://o7oam2pdt.bkt.clouddn.com/track01.mp3');audio.play()}">
   <div class="inner">
       <h4><p>A Red, Red Rose<br />
 	  Robert Burns</p>

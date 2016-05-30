@@ -3,13 +3,11 @@
 # Site settings
 title: 相爱·相知·相许
 description: |
-  我想和你在初春相遇，
-  撑把油纸伞，
-  陪你徜徉在悠长的雨巷，
-  而你美丽的额头开满了丁香。
+  你是一朵红红的玫瑰,
+  美到让我心醉。
 owner: uraplutonium
 first_published: 2016
-email: uraplutonium@yandex.com
+email: mailto:uraplutonium@yandex.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uraplutonium.github.io" # the base hostname & protocol for your site
 social:

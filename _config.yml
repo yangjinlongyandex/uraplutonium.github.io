@@ -3,7 +3,7 @@
 # Site settings
 title: 相爱·相知·相许
 description: |
-  <h3>丁飞 <strong>♡</strong> 贺煜星</h3>
+  <h3帅哥 <strong>♡</strong> 美女</h3>
   <br />
   <br />
   <br />
@@ -20,11 +20,7 @@ email: uraplutonium@yandex.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uraplutonium.github.io" # the base hostname & protocol for your site
 social:
-  email: http://uraplutonium@yandex.com
-  linkedin-square: https://linkedin.com/in/飞-丁-26273b32
-  github: https://github.com/uraplutonium
-  facebook-official: https://facebook.com/uraplutonium
-  vk: https://vk.com/uraplutonium
+
   
 # Build settings
 markdown: kramdown
